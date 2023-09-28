@@ -1,0 +1,76 @@
+.propos{
+    max-width: 1360px;
+    height: 850px;
+   display: grid;
+   grid-template-columns: 700px 1fr;
+   padding: 32px;
+   margin: 0 auto;
+   font-family: Arial, Helvetica, sans-serif;
+}
+.propos_slider{
+    display: flex;
+    
+}
+
+.image-propos{
+margin-top: 100px;
+width: 400px;
+height: 670px;
+background : linear-gradient(0deg, rgba(221,166,75,0.35),
+rgba(221,166,75,0.35)),
+ url(image/proposcontent.jpg);
+background-position: center;
+background-repeat: no-repeat;
+background-size: cover;
+}
+
+.propos-title{
+    margin-top: 100px;
+    margin-right: 98px;
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    gap: 40px;
+}
+.proposresum{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.proposh1{
+    color:#D8157B ;
+     font-size: 60px;
+      padding: 10px; 
+      font-style: bold;
+}
+
+.proposP{
+    color: #0E1F28; 
+    font-size: 100px;
+}
+
+.proposP2{
+    color: #234664;
+     margin-top: 15px;
+
+}
+.proposBox{
+    margin-top: 20px;
+    display: grid;
+    grid-template-columns: 10px 1fr;
+    box-shadow: 10px 10px 27px rgb(0, 0, 0,0.2);
+}
+.designbox{
+    background-color: #D8157B;
+}
+.propossmalldec{
+    margin-left: 10px;
+    color: #234664;
+    
+}
+.proposBox:hover{
+    transition: transform .5s ease;
+    transform: scale(1.5);
+    
+}

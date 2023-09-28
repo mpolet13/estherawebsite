@@ -1,0 +1,356 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+  
+
+
+body{
+    margin: 0;
+    padding: 0;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 
+    'Lucida Grande', 'Lucida Sans Unicode', Geneva,
+     Verdana, sans-serif;
+    
+}
+
+#hero{
+    width: 100%;
+    height:930px;
+    background: linear-gradient(0deg, rgba(35,70,100,0.88),
+    rgba(35,70,100,0.88)),
+     url(image/hero-image.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding-top: 32px;
+
+}
+
+.container{
+    max-width: 70%;
+    margin: 0 auto;
+}
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 100px;
+}
+
+.navbar .logo-maker{}
+ 
+
+.navbar .menu a:not(.active :last-child){
+color: white;
+margin-left: 20px;
+font-size: 14px;
+transition-duration: 0.4s;
+letter-spacing: 0.5px;
+text-decoration: none;
+}
+.navbar .menu a:not(.active :last-child):hover{
+    border-bottom: 2px solid #D8157B;
+    padding-bottom: 10px;
+}
+
+.navbar .menu .btn-signup{
+    text-decoration: none;
+    color: white;
+    margin-left: 20px;
+    padding: 10px 25px;
+    font-size: 14px;
+    background-color:rgb(216, 21, 123, 0.5) ;
+    border-radius: 50px;
+}
+
+.navbar .menu .btn-signup:hover{
+    background: white;
+    color: #2e2c2c;
+}
+
+.hero-box {
+    width: 100%;
+    margin-top:  200px;
+}
+
+
+
+.hero-box .btn-box{
+    margin-top: 60px;
+}
+.hero-box .cta-btn{
+    text-decoration: none;
+    background: #D8157B;
+    color: white;
+    margin-right: 30px;
+    padding: 15px 40px;
+    border-radius: 50px;
+}
+
+.hero-box .cta-btn:hover{
+    background-color: white;
+    opacity: 0.2;
+    color: #2e2c2c;
+}
+
+.hero-box .demo{
+    background: transparent;
+    border: 1px solid white;
+}
+.information{
+   
+    background:url(image/FORMATION\ BARRE.png),
+     rgb(255, 255, 255);
+     margin: 0; width:320px; 
+     position:relative;
+     padding:85px;
+      margin-top: 30px; 
+      margin-left: 500px; 
+      border-radius: 30px; 
+      padding-right: 882px;
+      box-shadow: 1px 5px 20px black;
+      background-position: center;
+      background-size: cover;
+      background-repeat: no-repeat;
+      
+
+}
+
+.title-description{
+    width: 100%;
+    background: url(image/titlebackground1.png);
+    background-position: -4px -4px ;
+    background-repeat: no-repeat;
+    background-size: 400px 300px;
+    resize: horizontal;
+}
+
+.title_hero{
+    width: 100%;
+    display: flex;
+
+   
+}
+.imagehero{
+    width: 500px; 
+    height:533px;
+     margin-top: 0;
+     margin: -80px 0px 0px 0px;
+}
+
+.hero-box .hero-heading{
+    
+    color: white;
+    font-size: 105px;
+    line-height:100px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    margin: -80px 0px 0px 0px;
+    
+    
+}
+
+ .hero-desc{
+    color: rgb(255, 255, 255);
+    font-size: 14px;
+    line-height: 22px;
+    margin: 25px 158px 0px 0px;
+    padding: 5px;
+}
+
+.propos{
+    max-width: 1360px;
+    height: 850px;
+   display: grid;
+   grid-template-columns: 700px 1fr;
+   padding: 32px;
+   margin: 0 auto;
+   
+}
+.propos_slider{
+    display: flex;
+    
+}
+
+.image-propos{
+margin-top: 100px;
+width: 400px;
+height: 670px;
+background : linear-gradient(0deg, rgba(221,166,75,0.35),
+rgba(221,166,75,0.35)),
+ url(image/proposcontent.jpg);
+background-position: center;
+background-repeat: no-repeat;
+background-size: cover;
+}
+
+.propos-title{
+    margin-top: 100px;
+    margin-right: 98px;
+    
+}
+
+.contact_us{
+    background:  rgba(221, 166, 75, 0.35);
+    max-width: 100%;
+    height: 850px;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: 700px 1fr;
+}
+
+.content_contact_us {
+  background: url(image/esthera_contact_section.jpg);
+
+}
+
+.contactez_nous{
+    position: relative;
+    width: 100%;
+
+}
+
+.titre_contact{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 2em;
+    color: #D8157B;
+}
+
+.contact_us .content_contact_us 
+.contactez_nous .titre_contact h1{
+    color: #D8157B;
+    font-weight: 500;
+}
+.box{
+    position: relative;
+    justify-content: center;
+    align-items: center;
+    margin-top: 50px;
+
+}
+.form{
+    grid-area: form;
+}
+.contact{
+    margin-left: 40px;
+    width: 1120px;
+    height:700px;
+    
+    
+}
+.formBox{
+    position: relative;
+    width: 100%;
+}
+
+.formBox .row50{
+    display: flex;
+    gap: 20px;
+}
+
+.inputBox{
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 20px;
+    margin: 10px;
+    width: 50%;
+}
+
+.formBox .row100 .inputBox{
+
+width: 100%;
+}
+
+.inputBox span{
+    color: #2e2c2c;
+    margin-top: 10px;
+    margin-bottom: 5px;
+}
+
+.inputBox input {
+    padding: 10px;
+    font-size: 1.1em;
+    outline: none;
+    border: none;
+}
+
+.inputBox textarea{
+    padding: 10px;
+    font-size: 1.1em;
+    outline: none;
+    border: none;
+    resize: none;
+    min-height: 220px;
+    margin-bottom: 10px;
+}
+
+.inputBox input[type="submit"]{
+    background: #234664;
+    color: white;
+    border: none;
+    border-radius: 10px;
+    font-size: 1.1em;
+    max-width: 120px;
+    font-weight: 500;
+    cursor: pointer;
+    padding: 14px 15px;
+    margin-left: 50%;
+    margin-right: 10px;
+}
+
+.inputBox ::placeholder{
+    color: #999;
+}
+
+.icon{
+    display: none;
+}
+
+.logowebsite{
+    width: 90px;
+    height: 90px;
+
+}
+
+.active{
+    text-decoration: none;
+    color: #234664;
+    margin-left: 20px;
+    padding: 10px 25px;
+    font-size: 14px;
+    background-color:rgba(255, 255, 255, 0.5) ;
+    border-radius: 100px;
+}
+
+
+
+/*slide animation here*/
+
+.mySlides {display: none;}
+
+.fade {
+    animation-name: fade;
+    animation-duration: 1.5s;
+  }
+
+  @keyframes fade {
+    from {opacity: .4} 
+    to {opacity: 1}
+  }
+
+  .dot{
+  height: 15px;
+  width: 15px;
+  margin: 0 2px;
+  background-color: #bbb;
+  border-radius:50%;
+  display: inline-block;
+  transition: background-color 0.6s ease;
+}
+* {box-sizing: border-box;}
+.active2 {
+    background-color: #ffffff;
+  }
